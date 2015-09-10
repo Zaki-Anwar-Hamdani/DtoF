@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/degrees" />
+
+    <EditText
+        android:id="@+id/degrees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fahrenheit" />
+
+    <EditText
+        android:id="@+id/fahrenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone" />
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Degrees to FahrenHeit" />
+
+    <Button
+        android:id="@+id/calculate2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="FahrenHeit to Degrees" />
+
+</LinearLayout>
